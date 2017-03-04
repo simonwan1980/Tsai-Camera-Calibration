@@ -1,0 +1,17 @@
+主程序为 Tsai
+参考 TestData 以了解调用方法
+Ncx，Nfx，Cx，Cy，dx，dy，sx 七个参数可以这样得到：
+
+Ncx，Nfx，sx 简单的设为1。
+Cx，Cy 设为像素中心，也即是如果图像是800×600，那就设为400、300。
+       但我的例子中的值是用其它的方法标定出来的。可以参考Tsai的另外一篇论文：
+       Techniques for Calibration of the Scale Factor and Image Center for High 
+       Accuracy 3-D Machine Vision Metrology， IEEE Transactions on Pattern 
+       Analysis and Machine Intelligence Volume 10 ,  Issue 5  (September 1988) 
+       Pages: 713 - 720 
+dx，dy 的值可以咨询相机的生产厂家。  
+
+另外我再附上一篇网上的文献，其中也讲到了这些值的设定方法。
+
+//2006-03-04 如有疑问：simonwan1980@gmail.com (因为已从哈工大毕业，此地址已作废simonwan1980@hit.edu.cn)
+
